@@ -1,0 +1,1049 @@
+script: 
+  - id: play_song
+    then:
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 587Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 554Hz
+      - delay: 692ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 587Hz
+      - delay: 692ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 587Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 554Hz
+      - delay: 692ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 692ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 230ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 461ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 880Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 880Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 230ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 461ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 880Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 880Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 311Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 311Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 311Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 311Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 554Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 622Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 1384ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 262Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 262Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 1384ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 262Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 262Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 247Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 587Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 554Hz
+      - delay: 692ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 587Hz
+      - delay: 692ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 587Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 554Hz
+      - delay: 692ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 692ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 230ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 461ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 880Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 880Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 230ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 461ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 880Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 932Hz
+      - delay: 115ms
+      - output.turn_off: buzzer
+      - delay: 115ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 988Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 880Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 784Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 311Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 311Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.turn_off: buzzer
+      - delay: 230ms
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 311Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 311Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 554Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 622Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 1384ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 262Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 262Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 370Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 659Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 1384ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 262Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 262Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 346ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 230ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 247Hz
+      - delay: 115ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 346ms
+      - output.turn_off: buzzer

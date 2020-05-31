@@ -1,0 +1,39 @@
+script: 
+  - id: play_song
+    then:
+      - output.set_level:
+          id: buzzer
+          level: 20%
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 294Hz
+      - delay: 562ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 187ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 523Hz
+      - delay: 1125ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 494Hz
+      - delay: 375ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 392Hz
+      - delay: 281ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 330Hz
+      - delay: 281ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 440Hz
+      - delay: 281ms
+      - output.esp8266_pwm.set_frequency:
+          id: buzzer
+          frequency: 587Hz
+      - delay: 1500ms
+      - output.turn_off: buzzer
